@@ -45,8 +45,9 @@ p{
 
 .navbar-brand{
   font-size: 3rem;
-  font-weight: bolder;
-  font-family: 'Qwitcher Grypen', cursive;
+  font-weight: 400;
+  color: black;
+  font-family: 'Anton', sans-serif;
 
 }
 .nav-item {
