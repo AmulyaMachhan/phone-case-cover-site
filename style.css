@@ -1,0 +1,173 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+h1 ,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  line-height: 1.5;
+    font-size: 2rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-size:2.5em;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* title section */
+.title {
+  background-color: #ff4c68;
+  color: white;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* navigation bar  */
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: 'Qwitcher Grypen', cursive;
+
+}
+.nav-item {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+
+.download-button{
+  margin: 3% 2% 3% 0;
+}
+
+.title-image{
+  width: 70%;
+  margin: 10% 10% 10% 10%;
+  position: absolute;
+}
+
+/* rotatation of the image */
+
+.rotated{
+  transform: rotate(30deg);
+
+}
+
+/* feautres section */
+
+.features
+{
+  text-align: center;
+  padding:3% 10%;
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  padding: 5%;
+}
+
+.icons{
+  color: #ef8172;
+  padding: 5%;
+}
+.icons:hover{
+  color: #ff4c58
+}
+
+/*testimonial section */
+
+.testimonial{
+  background-color: #ef8172;
+  text-align:center;
+  color: white;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* press section */
+.press{
+  background-color:#ef8172;
+  text-align: center;
+}
+
+.press-logo{
+  width: 20%;
+  padding:20px;
+  margin: 5px;
+}
+
+/* pricing */
+
+.pricing{
+  text-align: center;
+  padding: 80px;
+}
+
+.pricing-column{
+  padding: 2% 3%;
+}
+
+  /* Call to Action */
+.cta{
+  background-color: #ff4c68;
+  padding: 8% 0 7% 0;
+  text-align: center;
+  color: white;
+
+}
+
+/* footer */
+.footer{
+  margin: 60px auto 20px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-icons{
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+
+@media (max-width: 991.3px) {
+  .title{
+    text-align: center;
+  }
+
+  .title-image{
+   position: static;
+  }
+  .rotated{
+    transform: rotate(0);
+  }
+  .press-logo{
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+  }
+}
