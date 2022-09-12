@@ -3,10 +3,17 @@ body{
     margin: 0;
 }
 
-h1 ,h2,h3,h4,h5,h6{
+h1,h4,h5,h6{
   font-weight: bold;
   line-height: 1.5;
     font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.h2,.h3{
+  font-weight: bold;
+  line-height: 1.5;
+    font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 p{
@@ -158,7 +165,6 @@ p{
   .title{
     text-align: center;
   }
-
   .title-image{
    position: static;
   }
@@ -169,5 +175,39 @@ p{
     width: 40%;
     padding: 5px;
     margin: 5px;
+  }
+}
+@media (max-width: 600px){
+  .h2,.h3{
+    font-weight: 500;
+    line-height: 1.2;
+      font-size: 1.4rem;
+
+  }
+  .title{
+    text-align: center;
+  }
+
+  .big-heading{
+    font-size:1.8rem;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  .title-image{
+   position: static;
+  }
+  .rotated{
+    transform: rotate(0);
+  }
+  .press-logo{
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+  }
+  .cta{
+   padding:15%;
+  }
+  .btn{
+    font-size: small;
   }
 }
