@@ -160,3 +160,58 @@ input[type="submit"]
   font-weight: 600;
   cursor: pointer;
 }
+
+@media (max-width: 450px){
+  .box{
+    width: 80%;
+    height: 500px;
+  }
+  .box::before{
+    width: 80%;
+    height:500px;
+  }
+  .box::after{
+    width: 80%;
+    height: 500px;
+  }
+  .form{
+    padding-top: 30px;
+  }
+  .form h2{
+    font-size: 1.8rem;
+  }
+  
+  .inputBox{
+    width: 100%;
+    margin: 40px 0 20px;
+  } 
+  .inputBox input{
+    font-size: 0.8rem;
+  }
+  .inputBox span{
+    font-size: 1.25rem;
+  }
+  
+  .inputBox input:valid~span,
+  .inputBox input:focus~span{
+  font-size: 0.85rem;
+  transform: translateX(0px) translateY(-44px)
+  }
+  
+  .inputBox input:valid~i,
+  .inputBox input:focus~i
+  {
+    height: 54px;
+  }
+  .links a{
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+  input[type="submit"]{
+    padding: 15px 25px;
+    width: 60%;
+    margin: 40px auto auto auto;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+}
