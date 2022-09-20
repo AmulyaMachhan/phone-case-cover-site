@@ -178,18 +178,20 @@ input[type="submit"]
     padding-top: 30px;
   }
   .form h2{
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
   }
   
   .inputBox{
     width: 100%;
-    margin: 40px 0 20px;
+    margin: 50px 0 5px;
   } 
   .inputBox input{
     font-size: 0.8rem;
   }
   .inputBox span{
-    font-size: 1.25rem;
+    font-size: 0.85rem;
   }
   
   .inputBox input:valid~span,
@@ -205,13 +207,13 @@ input[type="submit"]
   }
   .links a{
     margin: 20px 0;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   input[type="submit"]{
-    padding: 15px 25px;
+    padding: 10px 20px;
     width: 60%;
     margin: 40px auto auto auto;
     border-radius: 4px;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
