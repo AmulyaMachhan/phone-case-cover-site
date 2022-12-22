@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar  */
+.navigation-bar {
+  background-color: #EEEEEE;
+  color: white;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: black;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+/* cart section */
+.cart {
+  padding: 0 3%;
+  background-color: #EEEEEE;
+}
+
+/*cover images*/
+.img-features {
+  background-color: white;
+}
+
+.case-images {
+  margin: 5%;
+}
+
+.other-cases {
+  display: block;
+  margin: 10% auto;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* main cart */
+.cart-options {
+  background-color: white;
+  margin: 5% 0;
+  padding: 0 2%;
+}
+
+.add-to-cart {
+  margin: 3% 2%;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+}
+
+.icons {
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+
+/* feature section */
+.features {
+  background-color: white;
+}
+
+/* footer sectiom */
+.footer {
+  margin: 60px auto 0;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#contacts {
+  padding: 50px;
+}
+
+.footer-icons {
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+@media (max-width: 1000px) {
+  .basic-case2{
+    display: flex;
+  }
+  .other-cases{
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    margin: 3% auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .basic-case2{
+    display: flex;
+  }
+  .other-cases{
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    padding: 3% auto;
+    border: 1px solid black;
+  }
+}

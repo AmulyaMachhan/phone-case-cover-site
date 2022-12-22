@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar  */
+.navigation-bar {
+  background-color: #EEEEEE;
+  color: white;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: black;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+/* main section */
+.main-container {
+  padding: 2% 3%;
+  background-color: white;
+}
+
+.main-heading {
+  border: 1px solid black;
+  ;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+.content {
+  border: 1px solid black;
+  padding: 10px 10px;
+  background-color: #EEEEEE;
+}
+
+.contact-button {
+  text-align: center;
+}
+
+/* location section */
+.location-cased {
+  padding: 2% 2%;
+}
+
+.location-heading {
+  text-align: center;
+}
+
+.location {
+  border: 1px solid black;
+  background-color: white;
+  margin: 3% auto;
+}
+
+iframe {
+  padding: 3% 0;
+  height: 50%;
+  width: 100%;
+}
+
+/* media enquiries */
+.media-inquiries {
+  margin: 2% 2%;
+  padding: 5% 5%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* footer sectiom */
+.footer {
+  margin: 60px auto 0;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#contacts {
+  padding: 50px;
+}
+
+.footer-icons {
+  color: black;
+  padding: 0 10px 10px 10px;
+}
