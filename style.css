@@ -151,11 +151,11 @@ p {
   display: block;
   width: 100%;
   text-decoration: none;
-  color: black
+  color: white;
 }
 
 .cart-link:hover {
-  color: black
+  color: white;
 }
 
 /* Call to Action */
