@@ -1,73 +1,118 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swa);
-*{
+
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
+  background-color: grey;
+}
+
+/* navigation bar  */
+.navigation-bar {
+  background-color: #EEEEEE;
+  color: black;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: black;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #23242a;
+  background:grey ;
 }
 
-.box{
+.box {
   position: relative;
-  width: 380px;
-  height: 420px;
+  width: 23.75rem;
+  height: 26.25rem;
   background: #1c1c1c;
   border-radius: 8px;
   overflow: hidden;
 }
 
-.box::before{
+.box::before {
   content: '';
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 380px;
-  height: 420px;
-  background: linear-gradient(0deg,transparent,#ff4c68,#ff4c68);
+  width: 23.75rem;
+  height: 26.25rem;
+  background: linear-gradient(0deg, transparent, #EEEEEE, #EEEEEE);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
 }
-.box::after{
+
+.box::after {
   content: '';
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 380px;
-  height: 420px;
-  background: linear-gradient(0deg,transparent,#ff4c68,#ff4c68);
+  width: 23.75rem;
+  height: 26.25rem;
+  background: linear-gradient(0deg, transparent, #EEEEEE, #EEEEEE);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
   animation-delay: -3s;
 }
+
 @keyframes animate {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
-  100%{
+
+  100% {
     transform: rotate(360deg);
   }
 }
 
-.form
-{
+.form {
   position: absolute;
   inset: 2px;
-  background: #28292d;
+  background: #EEEEEE;
   z-index: 10;
   padding: 50px 40px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  border-radius: 8px;
 }
 
-.form h2{
-  color:  #ff4c68;
+.form h2 {
+  color: black;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.1em;
@@ -79,7 +124,7 @@ body{
   margin-top: 35px;
 }
 
-.inputBox input{
+.inputBox input {
   position: relative;
   width: 100%;
   padding: 20px 10px 10px;
@@ -92,7 +137,7 @@ body{
   z-index: 10;
 }
 
-.inputBox span{
+.inputBox span {
   position: absolute;
   left: 0;
   padding: 20px 0px 10px;
@@ -103,20 +148,19 @@ body{
 }
 
 .inputBox input:valid~span,
-.inputBox input:focus~span
-{
-  color:  #ff4c68;
+.inputBox input:focus~span {
+  color: grey;
   transform: translateX(0px) translateY(-34px);
   font-size: 0.75em;
 }
 
-.inputBox i{
+.inputBox i {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 2px;
-  background:  #ff4c68;
+  background: grey;
   border-radius: 4px;
   transition: 0.5s;
   pointer-events: none;
@@ -124,35 +168,31 @@ body{
 }
 
 .inputBox input:valid~i,
-.inputBox input:focus~i
-{
+.inputBox input:focus~i {
   height: 44px;
 }
 
-.links{
- display: flex;
- justify-content: space-between;
-
+.links {
+  display: flex;
+  justify-content: space-between;
 }
 
-.links a{
+.links a {
   margin: 10px 0;
   font-size: 0.75em;
   color: #8f8f8f;
   text-decoration: none;
-
 }
 
 .links a:hover,
-.links a:nth-child(2){
-  color: #ff4c68;
+.links a:nth-child(2) {
+  color: black;
 }
 
-input[type="submit"]
-{
+input[type="submit"] {
   border: none;
   outline: none;
-  background: #ff4c68;
+  background: grey;
   padding: 11px 25px;
   width: 100px;
   margin-top: 10px;
@@ -161,55 +201,83 @@ input[type="submit"]
   cursor: pointer;
 }
 
-@media (max-width: 450px){
-  .box{
+/* footer section */
+.footer {
+  background-color: #EEEEEE;
+  ;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#contacts {
+  padding: 60px;
+}
+
+.footer-icons {
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+
+.footer-icons:hover {
+  color: grey;
+}
+
+@media (max-width: 450px) {
+  .box {
     width: 80%;
     height: 500px;
   }
-  .box::before{
-    width: 80%;
-    height:500px;
-  }
-  .box::after{
+
+  .box::before {
     width: 80%;
     height: 500px;
   }
-  .form{
+
+  .box::after {
+    width: 80%;
+    height: 500px;
+  }
+
+  .form {
     padding-top: 30px;
   }
-  .form h2{
+
+  .form h2 {
     font-size: 2.3rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
   }
-  
-  .inputBox{
+
+  .inputBox {
     width: 100%;
     margin: 50px 0 5px;
-  } 
-  .inputBox input{
+  }
+
+  .inputBox input {
     font-size: 0.8rem;
   }
-  .inputBox span{
+
+  .inputBox span {
     font-size: 0.85rem;
   }
-  
+
   .inputBox input:valid~span,
-  .inputBox input:focus~span{
-  font-size: 0.85rem;
-  transform: translateX(0px) translateY(-44px)
+  .inputBox input:focus~span {
+    font-size: 0.85rem;
+    transform: translateX(0px) translateY(-44px)
   }
-  
+
   .inputBox input:valid~i,
-  .inputBox input:focus~i
-  {
+  .inputBox input:focus~i {
     height: 54px;
   }
-  .links a{
+
+  .links a {
     margin: 20px 0;
     font-size: 0.75rem;
   }
-  input[type="submit"]{
+
+  input[type="submit"] {
     padding: 10px 20px;
     width: 60%;
     margin: 40px auto auto auto;
