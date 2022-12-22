@@ -1,214 +1,244 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
-h1,h4,h5,h6{
+h1 {
   font-weight: bold;
   line-height: 1.5;
-    font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.h2,.h3{
-  font-weight: bold;
-  line-height: 1.5;
-    font-size: 2rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-p{
+.h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.h3 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
   color: #8f8f8f;
 }
 
-.big-heading{
-  font-size:2.5em;
+.big-heading {
+  font-size: 2.5em;
   line-height: 1.5;
   font-weight: 900;
 }
 
 /* title section */
 .title {
-  background-color: #ff4c68;
-  color: white;
+  background-color: #EEEEEE;
+  color: black;
   margin-right: 0;
 }
 
 .container-fluid {
-  padding: 3% 10%;
+  padding: 1% 10% 3%;
 }
 
 /* navigation bar  */
-
-.navbar{
+.navbar {
   padding: 0 0 3rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 3rem;
   font-weight: 400;
   color: black;
   font-family: 'Anton', sans-serif;
-
 }
+
 .nav-item {
   text-decoration: none;
   padding: 0 20px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
-  font-weight: lighter;
+  color: black;
 }
 
+.nav-link:hover {
+  color: grey;
+}
 
-.download-button{
+.download-button {
   margin: 3% 2% 3% 0;
 }
 
-.title-image{
+.title-image {
   width: 70%;
   margin: 10% 10% 10% 10%;
   position: absolute;
 }
 
 /* rotatation of the image */
-
-.rotated{
+.rotated {
   transform: rotate(30deg);
-
 }
 
 /* feautres section */
-
-.features
-{
+.features {
   text-align: center;
-  padding:3% 10%;
+  padding: 3% 10%;
   background-color: white;
   position: relative;
 }
-.feature-box{
+
+.feature-box {
   padding: 5%;
 }
 
-.icons{
-  color: #ef8172;
+.icons {
+  color: black;
   padding: 5%;
 }
-.icons:hover{
-  color: #ff4c58
+
+.icons:hover {
+  color: grey;
 }
 
 /*testimonial section */
-
-.testimonial{
-  background-color: #ef8172;
-  text-align:center;
-  color: white;
+.testimonial {
+  background-color: #EEEEEE;
+  text-align: center;
+  color: black;
 }
 
-.testimonial-img{
+.testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 3%;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 5% 15%;
 }
 
 /* press section */
-.press{
-  background-color:#ef8172;
+.press {
+  background-color: #EEEEEE;
+  ;
   text-align: center;
 }
 
-.press-logo{
+.press-logo {
   width: 20%;
-  padding:20px;
+  padding: 20px;
   margin: 5px;
 }
 
 /* pricing */
-
-.pricing{
+.pricing {
   text-align: center;
   padding: 80px;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 2% 3%;
 }
 
-  /* Call to Action */
-.cta{
-  background-color: #ff4c68;
+.cart-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: black
+}
+
+.cart-link:hover {
+  color: black
+}
+
+/* Call to Action */
+.cta {
+  background-color: #EEEEEE;
   padding: 8% 0 7% 0;
   text-align: center;
-  color: white;
-
+  color: black;
 }
 
 /* footer */
-.footer{
-  margin: 60px auto 20px;
-  background-color: #fff;
+.footer {
+  margin: 60px auto 0;
+  background-color: #EEEEEE;
   text-align: center;
   font-size: 0.8rem;
 }
 
-.footer-icons{
+#contacts {
+  padding: 50px;
+}
+
+.footer-icons {
   color: black;
   padding: 0 10px 10px 10px;
 }
 
 @media (max-width: 991.3px) {
-  .title{
+  .title {
     text-align: center;
   }
-  .title-image{
-   position: static;
+
+  .title-image {
+    position: static;
   }
-  .rotated{
+
+  .rotated {
     transform: rotate(0);
   }
-  .press-logo{
+
+  .press-logo {
     width: 40%;
     padding: 5px;
     margin: 5px;
   }
 }
-@media (max-width: 600px){
-  .h2,.h3{
+
+@media (max-width: 600px) {
+  .h2, .h3 {
     font-weight: 500;
     line-height: 1.2;
-      font-size: 1.4rem;
-
+    font-size: 1.4rem;
   }
-  .title{
+
+  .title {
     text-align: center;
   }
 
-  .big-heading{
-    font-size:1.8rem;
+  .big-heading {
+    font-size: 1.8rem;
     line-height: 1.2;
     font-weight: 900;
   }
-  .title-image{
-   position: static;
+
+  .title-image {
+    position: static;
   }
-  .rotated{
+
+  .rotated {
     transform: rotate(0);
   }
-  .press-logo{
+
+  .press-logo {
     width: 40%;
     padding: 5px;
     margin: 5px;
   }
-  .cta{
-   padding:15%;
+
+  .cta {
+    padding: 15%;
   }
-  .btn{
+
+  .btn {
     font-size: small;
   }
 }
