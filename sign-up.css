@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swa);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+p{
+   font-size: 0.8em;
+}
+
+/* navigation bar  */
+.navigation-bar {
+  background-color: #EEEEEE;
+  color: black;
+  margin-right: 0;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 400;
+  color: black;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 0 20px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: black;
+}
+.nav-link:hover {
+  color: grey;
+}
+
+/* sign-up form */
+.container{
+    padding: 10% 10%;
+    background-color: grey;
+}
+.formContainer {
+    padding: 5% 7%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+ }
+.signup-heading{
+    text-align: center;
+    margin: 10px auto;
+ }
+ h1{
+    font-size: 2rem;
+    font-weight: bold;
+ }
+input[type=text], input[type=password] {
+    width: 100%;
+    font-size: 1em;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    color: #8f8f8f;
+    background: #f1f1f1;
+ }
+ label{
+    font-size: 15px;
+ }
+ input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+ }
+ .buttons{
+    margin: 10px auto 20px;
+ }
+
+
+/* footer section */
+.footer {
+    background-color: #EEEEEE;
+    ;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  #contacts {
+    padding: 60px;
+  }
+  
+  .footer-icons {
+    color: black;
+    padding: 0 10px 10px 10px;
+  }
+  
+  .footer-icons:hover {
+    color: grey;
+  }
