@@ -4,6 +4,9 @@ Welcome to CASED, your one-stop destination for stylish phone case covers! CASED
 
 You can view this site [here](https://amulyamachhan.github.io/phone-case-cover-site/index.html).
 
+## Screenshots
+![cased](https://github.com/AmulyaMachhan/phone-case-cover-site/assets/111338400/f369f186-ee97-4545-9aa0-dc5af39ceee8)
+
 ## Features
 
 - **Landing Page:** Explore our collection of phone case covers with our visually appealing landing page that showcases our latest designs and bestsellers.
@@ -11,11 +14,6 @@ You can view this site [here](https://amulyamachhan.github.io/phone-case-cover-s
 - **Shopping Cart:** Add your favorite phone case designs to your cart and seamlessly proceed to checkout for a hassle-free shopping experience.
 - **Full Stack Integration:** CASED is on its way to becoming a full stack website, offering enhanced functionality and interactivity through backend integration.
 
-## Screenshots
-![amulyamachhan github io_phone-case-cover-site_index html](https://github.com/AmulyaMachhan/phone-case-cover-site/assets/111338400/68401271-d3fa-4377-a4f5-5ee43771f279)
-![amulyamachhan github io_phone-case-cover-site_cart html](https://github.com/AmulyaMachhan/phone-case-cover-site/assets/111338400/0db2e983-cfa0-4d58-8f82-b7c364555981)
-![amulyamachhan github io_phone-case-cover-site_signin html](https://github.com/AmulyaMachhan/phone-case-cover-site/assets/111338400/d0b4fcd6-0c57-4a0b-9008-bfe175379144)
-![amulyamachhan github io_phone-case-cover-site_contact html](https://github.com/AmulyaMachhan/phone-case-cover-site/assets/111338400/b8d0af7f-888d-4a41-99fb-d600c6f976ee)
 
 ## Technologies Used
 
